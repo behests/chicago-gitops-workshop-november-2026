@@ -33,13 +33,13 @@ org_settings:
     ###########################################################
     server_url: $FLEET_URL
 
-fleet_desktop:
-  transparency_url: https://pointerpointer.com
+  fleet_desktop:
+    transparency_url: https://pointerpointer.com
 
-webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/a001c2eb-d086-4934-b4d9-644380755eb9  
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/a001c2eb-d086-4934-b4d9-644380755eb9  
 
   ###########################################################
   # Uncomment to use single sign-on (SSO) for admins accessing Fleet.
