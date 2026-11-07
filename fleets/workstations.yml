@@ -66,6 +66,7 @@ controls:
   # ```  
   ###########################################################
   apple_settings:
+    enable_disk_encryption: true
     configuration_profiles:
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
@@ -87,7 +88,7 @@ controls:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
     enable_disk_encryption: true
-    enable_recovery_lock_password: true
+  enable_recovery_lock_password: true
 
   ###########################################################
   # Managed OS updates
@@ -123,7 +124,7 @@ controls:
   # > is intended to run.  It will be included automatically
   # > using `paths` below.
   ###########################################################
-    scripts:
+  scripts:
     - paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
