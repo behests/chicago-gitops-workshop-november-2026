@@ -102,7 +102,7 @@ controls:
   ###########################################################
   ipados_updates:
     deadline: "2026-12-01"
-    minimum_version: "27.2""
+    minimum_version: "27.2"
     update_new_hosts: true
   macos_updates:
     deadline: "2026-12-01"
