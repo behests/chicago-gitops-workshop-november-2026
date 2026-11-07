@@ -193,7 +193,7 @@ software:
 
   packages: # Custom packages (if any)
     # macOS custom packages
-    # …
+    - path: ../platforms/macos/software/zoom.yml
 
     # Windows custom packages
     # …
