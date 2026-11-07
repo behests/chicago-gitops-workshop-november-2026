@@ -200,7 +200,7 @@ software:
         - Communication
 
     # Windows custom packages
-    # …
+    - path: ../platforms/windows/software/cloudflare-warp.yml
 
     # Linux custom packages
     # …
