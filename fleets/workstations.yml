@@ -123,7 +123,7 @@ controls:
   # > is intended to run.  It will be included automatically
   # > using `paths` below.
   ###########################################################
-  scripts:
+    scripts:
     - paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
